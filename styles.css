@@ -167,7 +167,7 @@ html {
     right: -100%;
     width: 60%;
     height: 700px;
-    background-color: rgba(146, 146, 146, 0.507);
+    background-color: rgba(31, 31, 73, 0.507);
     backdrop-filter: blur(10px);
     z-index: 1;
   }
@@ -203,8 +203,9 @@ html {
   .landing-page-content p {
     color: #fff;
     font-family: "Jost", sans-serif;
-    font-size: 2.5rem;
-    font-weight: 300;
+    font-size: 1.9rem;
+    font-weight: 400;
+    margin: 50px 20px;
   }
   .landing-page-content .landing-buttons button {
     padding: 10px 20px;
@@ -323,20 +324,41 @@ html {
   .our-taste-content {
     width: 350px;
   }
+  .our-taste-content h2 {
+    margin-bottom: 20px;
+  }
+  .our-taste-content p {
+    font-size: 1.3rem;
+    font-weight: 400;
+
+    margin: 0px;
+  }
   .sample-audios {
     width: 90%;
+
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
   }
   .sample-audios .song-title {
-    width: 90%;
+    width: 100%;
+  }
+  .sample-audios .song-title h3 {
+    color: #ffa304;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 0%;
+    margin-left: 30px;
   }
   .sample-audios .song-title audio {
     width: 100%;
+  }
+  .more-content a {
+    font-size: 1rem;
   }
 }
 
